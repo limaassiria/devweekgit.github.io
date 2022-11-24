@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #774569;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #481a3d;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #5f3053;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.left-section-contents{
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 1.5px solid #E9DFCC;
+    vertical-align: inherit;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    color: #E9DFCC;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.profession {
+    color: #F3A36B;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: inherit;
+    padding-bottom: 20px;
+}
+
+.contact-infos { 
+    border-bottom: 2px solid #481a3d;
+} 
+
+.left-title {
+    color: #F3A36B;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    vertical-align: inherit;
+}
+
+.contact-infos ul {
+    padding-top: 1.5rem;
+}
+
+.contact-infos ul li {
+    padding: .4rem 0;
+    color: #E9DFCC;
+    padding-left: 20px;
+}
+
+.contact-infos ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color:#774569;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+}
+
+.skills ul li {
+    padding: .4rem 0;
+    color: #E9DFCC;
+    padding-left: 20px;
+}
+
+.skills ul li p {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #E9DFCC;
+    vertical-align: inherit;
+}
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.about-me-title {
+    color:#F3A36B;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.about-me-contents {
+    color: #E9DFCC;
+    font-size: 18px;
+}
