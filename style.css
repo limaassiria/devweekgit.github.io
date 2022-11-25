@@ -32,28 +32,29 @@ body {
 }
 
 .left-section-contents{
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .profile {
     width: 100%;
-    border-bottom: 1.5px solid #E9DFCC;
     vertical-align: inherit;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 100%;
+    border: 2.5px solid #481a3d;
+    outline: 2.5px outset #774569;
 }
 
 .name {
     color: #E9DFCC;
     font-size: 30px;
-    text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
 }
 
 .profession {
@@ -61,30 +62,42 @@ body {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    vertical-align: inherit;
-    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
-
-.contact-infos { 
-    border-bottom: 2px solid #481a3d;
-} 
 
 .left-title {
     color: #F3A36B;
     font-size: 20px;
-    padding-left: 15px;
-    padding-top: 15px;
-    vertical-align: inherit;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center;
+    padding-top: 1rem; 
 }
+
+.contact-infos {
+    width: 260px;
+    height: 280px;
+    border: 2px transparent;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px #5f3053;
+} 
 
 .contact-infos ul {
     padding-top: 1.5rem;
-}
+} 
 
 .contact-infos ul li {
-    padding: .4rem 0;
     color: #E9DFCC;
-    padding-left: 20px;
+   padding: 0.4rem 0; 
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .contact-infos ul li i {
@@ -93,34 +106,107 @@ body {
     color:#774569;
 }
 
+.skills {
+    width: 260px;
+    height: 250px;
+    border: 2px transparent;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px #5f3053;
+}
+
 .skills ul {
     padding-top: 1.5rem;
 }
 
 .skills ul li {
-    padding: .4rem 0;
-    color: #E9DFCC;
-    padding-left: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color:#E9DFCC;
 }
 
 .skills ul li p {
-    padding-right: 1rem;
+    padding: 0.3rem 0; 
     font-size: 18px;
-    color: #E9DFCC;
-    vertical-align: inherit;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .right-section-contents {
     padding: 2rem 2rem;
 }
 
-.about-me-title {
+.right-title {
     color:#F3A36B;
-    font-size: 30px;
-    padding-bottom: 10px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.about {
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px transparent;
+    margin: 20px 10px;
+    box-shadow: 0 4px 6px #774569;
 }
 
 .about-me-contents {
     color: #E9DFCC;
     font-size: 18px;
 }
+
+.experience {
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    border: 2px transparent;
+    margin: 20px 10px;
+    box-shadow: 0 4px 6px #774569;
+}
+
+.experience-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #E9DFCC;
+}
+
+.exp-company-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#F3A36B;
+    padding-bottom: 0.4rem;
+}
+
+.exp-time-period {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: #E9DFCC
+}
+
+.exp-position {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #F3A36B;
+    padding-bottom: 0.4rem;
+}
+
+.exp-desc {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    color: #E9DFCC;
+    border-left: 2px solid #F3A36B;
+    padding-left: 5px;
+} 
