@@ -45,6 +45,10 @@ body {
     border-radius: 100%;
     border: 2.5px solid #481a3d;
     outline: 2.5px outset #774569;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name {
@@ -162,7 +166,8 @@ body {
     font-size: 18px;
 }
 
-.experience {
+.experience, 
+.education {
     padding: 20px 20px 20px 20px;
     box-sizing: border-box;
     border: 2px transparent;
@@ -170,14 +175,16 @@ body {
     box-shadow: 0 4px 6px #774569;
 }
 
-.experience-contents {
+.experience-contents, 
+.education-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #E9DFCC;
 }
 
-.exp-company-name {
+.exp-company-name, 
+.education-school-name {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -186,14 +193,16 @@ body {
     padding-bottom: 0.4rem;
 }
 
-.exp-time-period {
+.exp-time-period, 
+.education-time-period {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
     color: #E9DFCC
 }
 
-.exp-position {
+.exp-position, 
+.education-subject {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
@@ -202,7 +211,8 @@ body {
     padding-bottom: 0.4rem;
 }
 
-.exp-desc {
+.exp-desc, 
+.education-desc {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
