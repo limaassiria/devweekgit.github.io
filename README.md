@@ -1,2 +1,2 @@
-# limaassiria-devweekgit.github.io
+# limaassiria.github.io
 Currículo do Jornada Dev
